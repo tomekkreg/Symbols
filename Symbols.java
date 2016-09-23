@@ -15,8 +15,8 @@ public class Symbols {
 		for ( String element : elements ) {
 			if ( noSymbol( element ) ) noSymbols.add( element );
 		}
-		System.out.println( "Symbols assigned to " + allSymbols.size( ) +
-				" elements\nNo symbol for " + noSymbols.size( ) + " elements: " + noSymbols );
+		System.out.println( "Symbols assigned to " + allSymbols.size( ) + " elements\n" + 
+					"No symbol for " + noSymbols.size( ) + " elements: " + noSymbols );
 	}
 	//Tries to assign a symbol to the element
 	Boolean noSymbol( String element ) {
